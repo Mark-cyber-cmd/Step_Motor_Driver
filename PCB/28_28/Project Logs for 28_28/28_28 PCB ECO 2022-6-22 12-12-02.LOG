@@ -1,0 +1,44 @@
+Added Component: Designator=JP1(HDR2.54-LI-4P)
+Add component (AddParameter): Name = "0.0_BOM名称"; Value = "4P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "1.库作者"; Value = "冰凌猫"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "2.库版本"; Value = "v2.0 (2021.03.30)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "3.交流分享"; Value = "Q群514746572,开源更新,欢迎一起交流学习PCB设计"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "4.作者声明"; Value = "旨为整合最全库集,欢迎转载,禁止商用！-冰凌猫"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "5.备注说明"; Value = "该库已二次整合过网上各热销库,基本最全,无需重复搜购安装"; VariantName = "[No Variations]"
+Added Component: Designator=JP2(MX 1.25-WI-6P)
+Add component (AddParameter): Name = "0.0_BOM名称"; Value = "6P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "1.库作者"; Value = "冰凌猫"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "2.库版本"; Value = "v2.0 (2021.03.30)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "3.交流分享"; Value = "Q群514746572,开源更新,欢迎一起交流学习PCB设计"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "4.作者声明"; Value = "旨为整合最全库集,欢迎转载,禁止商用！-冰凌猫"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "5.备注说明"; Value = "该库已二次整合过网上各热销库,基本最全,无需重复搜购安装"; VariantName = "[No Variations]"
+Added Component: Designator=JP4(MX 1.25-WI-6P)
+Add component (AddParameter): Name = "0.0_BOM名称"; Value = "6P接插件"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "1.库作者"; Value = "冰凌猫"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "2.库版本"; Value = "v2.0 (2021.03.30)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "3.交流分享"; Value = "Q群514746572,开源更新,欢迎一起交流学习PCB设计"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "4.作者声明"; Value = "旨为整合最全库集,欢迎转载,禁止商用！-冰凌猫"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "5.备注说明"; Value = "该库已二次整合过网上各热销库,基本最全,无需重复搜购安装"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=JP1-1
+Added Pin To Net: NetName=RS485_TX Pin=JP1-2
+Added Pin To Net: NetName=RS485_RX Pin=JP1-3
+Added Pin To Net: NetName=VCC_5.0 Pin=JP1-4
+Added Pin To Net: NetName=VCC_IN Pin=JP2-1
+Added Pin To Net: NetName=VCC_IN Pin=JP2-2
+Added Pin To Net: NetName=CAN_L Pin=JP2-3
+Added Pin To Net: NetName=CAN_H Pin=JP2-4
+Added Pin To Net: NetName=GND Pin=JP2-5
+Added Pin To Net: NetName=GND Pin=JP2-6
+Added Pin To Net: NetName=VCC_IN Pin=JP4-1
+Added Pin To Net: NetName=VCC_IN Pin=JP4-2
+Added Pin To Net: NetName=485_B Pin=JP4-3
+Added Pin To Net: NetName=485_A Pin=JP4-4
+Added Pin To Net: NetName=GND Pin=JP4-5
+Added Pin To Net: NetName=GND Pin=JP4-6
+Added Member To Class: ClassName=Port Member=Component C17 100nF (104) 10% 50V
+Added Member To Class: ClassName=Port Member=Component JP1 HDR-1X4
+Added Member To Class: ClassName=Port Member=Component JP2 HDR-1X6
+Added Member To Class: ClassName=Port Member=Component JP4 HDR-1X6
+Added Member To Class: ClassName=MCU Member=Component R2 10KΩ (1002) ±1%
+Added Room: Name=MCU
+Added Room: Name=Port

@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=VCC Pin=U2-5
+Added Pin To Net: NetName=VCC Pin=U3-5
+Added Member To Class: ClassName=Port Member=Component JP2 HDR-1X6
+Added Room: Name=Drive
+Added Room: Name=MCU
+Added Room: Name=Port
+Added Room: Name=Power
+Added Room: Name=Sensor

@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=OUT_A- Pin=U2-q
+Change Component Footprint: Designator=R5 Old Footprint=1206_R New Footprint=R0603_M
+Change Component Footprint: Designator=R8 Old Footprint=1206_R New Footprint=R0603_M
+Change Component Comment : Designator=R5 Old Comment=0.1Ω (R100) ±1% New Comment=0.1
+Change Component Comment : Designator=R8 Old Comment=0.1Ω (R100) ±1% New Comment=0.1
+Change component parameters: Designator = "R5" ("R5"); Footprint = "1206_R"; UniqueID = "\ELPLYNMV" ("\ELPLYNMV")
+Change component parameters (AddParameter): Name = "0.0_BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "1.库作者"; Value = "冰凌猫"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "2.库版本"; Value = "v2.0 (2021.03.30)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "3.交流分享"; Value = "Q群514746572,开源更新,欢迎一起交流学习PCB设计"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "4.作者声明"; Value = "旨为整合最全库集,欢迎转载,禁止商用！-冰凌猫"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "5.备注说明"; Value = "该库已二次整合过网上各热销库,基本最全,无需重复搜购安装"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "1206_R"; UniqueID = "\XVOUROME" ("\XVOUROME")
+Change component parameters (AddParameter): Name = "0.0_BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "1.库作者"; Value = "冰凌猫"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "2.库版本"; Value = "v2.0 (2021.03.30)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "3.交流分享"; Value = "Q群514746572,开源更新,欢迎一起交流学习PCB设计"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "4.作者声明"; Value = "旨为整合最全库集,欢迎转载,禁止商用！-冰凌猫"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "5.备注说明"; Value = "该库已二次整合过网上各热销库,基本最全,无需重复搜购安装"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin U2-8
+Added Member To Class: ClassName=MCU Member=Component U1 STM32F103CBT6
+Added Room: Name=Drive
+Added Room: Name=MCU
+Added Room: Name=Port
+Added Room: Name=Power
+Added Room: Name=Sensor

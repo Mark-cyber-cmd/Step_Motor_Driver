@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VCC_5.0 Pin=F1-2
+Removed Member From Class: ClassName=Power Member=F1
+Added Room: Name=MCU
+Added Room: Name=Port

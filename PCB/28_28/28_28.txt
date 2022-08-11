@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : G:\28_28\28_28.PcbDoc
+Date         : 2022/6/23
+Time         : 16:40:18
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 177
+    Connections routed, 177
+    Connections remaining, 0
+count : 4

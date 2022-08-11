@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=VBUS Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=USB_DP Pin=R10-1
+Removed Pin From Net: NetName=USB_DM Pin=R11-1
+Removed Pin From Net: NetName=VBUS Pin=R12-1
+Removed Pin From Net: NetName=GND Pin=USBC1-0
+Removed Pin From Net: NetName=GND Pin=USBC1-0
+Removed Pin From Net: NetName=GND Pin=USBC1-0
+Removed Pin From Net: NetName=GND Pin=USBC1-0
+Removed Pin From Net: NetName=GND Pin=USBC1-A1
+Removed Pin From Net: NetName=GND Pin=USBC1-A12
+Removed Pin From Net: NetName=GND Pin=USBC1-B1
+Removed Pin From Net: NetName=VBUS Pin=USBC1-B4
+Removed Pin From Net: NetName=VBUS Pin=USBC1-B9
+Removed Pin From Net: NetName=GND Pin=USBC1-B12
+Removed Member From Class: ClassName=Port Member=C13
+Removed Member From Class: ClassName=Port Member=R10
+Removed Member From Class: ClassName=Port Member=R11
+Removed Member From Class: ClassName=Port Member=R12
+Removed Member From Class: ClassName=Port Member=USBC1
+Added Member To Class: ClassName=Port Member=Component JP2 HDR-1X6
+Added Room: Name=Port
