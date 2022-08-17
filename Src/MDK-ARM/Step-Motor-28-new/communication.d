@@ -36,6 +36,8 @@ step-motor-28-new\communication.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\s
 step-motor-28-new\communication.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\string.h
 step-motor-28-new\communication.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 step-motor-28-new\communication.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-step-motor-28-new\communication.o: ..\User\main_thread.h
+step-motor-28-new\communication.o: ..\Motor_control\motor_control.h
 step-motor-28-new\communication.o: ../Core/Inc/main.h
 step-motor-28-new\communication.o: ..\Drivers\Board\Step-Motor-28-mark1.h
+step-motor-28-new\communication.o: ..\Drivers\Peripheral\TB67H450.h
+step-motor-28-new\communication.o: ..\User\main_thread.h

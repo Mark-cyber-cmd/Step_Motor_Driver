@@ -1,4 +1,6 @@
 #include "communication.h"
+#include "motor_control.h"
+
 //以下头文件供测试使用
 #include "main_thread.h"
 

@@ -19,12 +19,14 @@
 void main_thread(void)
 {
 	HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_2);
-    LoopIT_SysTick_20KHz();		
     Motor_Control_Init();
+    
+    Motor_set_subdivision(25600);
+    Motor_move(25600,500);
     
     while(1)
     {
-        
+
     }
 }
 

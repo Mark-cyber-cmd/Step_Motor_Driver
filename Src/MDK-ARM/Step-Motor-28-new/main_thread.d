@@ -42,5 +42,3 @@ step-motor-28-new\main_thread.o: ..\Drivers\Peripheral\w25q128.h
 step-motor-28-new\main_thread.o: ..\Drivers\Peripheral\mt6816.h
 step-motor-28-new\main_thread.o: ..\Drivers\Peripheral\TB67H450.h
 step-motor-28-new\main_thread.o: ..\Motor_control\motor_control.h
-step-motor-28-new\main_thread.o: ..\Motor_control\control_config.h
-step-motor-28-new\main_thread.o: ..\Motor_control\Current_Tracker.h

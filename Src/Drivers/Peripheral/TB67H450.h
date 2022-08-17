@@ -46,7 +46,7 @@ void TB67H450_SetPwmStop(void);
 void TB67H450_SetSleep(void);																		//硬件电流设置驱动睡眠
 void TB67H450_SetBrake(void);																		//硬件电流设置驱动刹车
 void TB67H450_SetDivideElec(uint32_t divide, int32_t elec_ma);	                                    //硬件电流设置输出细分电流
-
+void CurrentControl_VREF_16Bit_MixOut(uint16_t elec_va, uint16_t elec_vb);
 #ifdef __cplusplus
 }
 #endif

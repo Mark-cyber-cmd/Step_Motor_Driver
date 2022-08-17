@@ -37,9 +37,7 @@ void LoopIT_SysTick_20KHz(void)
 void SysTick_Handler(void)
 {
 	if(systick_20khz_flag)
-    {
-        Motor_Control_Callback();                       //电机控制器后台任务 
-        
+    {  
         //1Khz分频
 		lit_1ms_divider++;
 		if(lit_1ms_divider >= 20)

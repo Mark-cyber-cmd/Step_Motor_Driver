@@ -546,11 +546,6 @@
               <FileType>1</FileType>
               <FilePath>..\Motor_control\motor_control.c</FilePath>
             </File>
-            <File>
-              <FileName>Current_Tracker.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Motor_control\Current_Tracker.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>

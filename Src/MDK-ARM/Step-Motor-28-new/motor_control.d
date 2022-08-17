@@ -39,5 +39,3 @@ step-motor-28-new\motor_control.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\s
 step-motor-28-new\motor_control.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 step-motor-28-new\motor_control.o: ..\Drivers\Board\Step-Motor-28-mark1.h
 step-motor-28-new\motor_control.o: ..\Drivers\Peripheral\TB67H450.h
-step-motor-28-new\motor_control.o: ..\Motor_control\control_config.h
-step-motor-28-new\motor_control.o: ..\Motor_control\Current_Tracker.h

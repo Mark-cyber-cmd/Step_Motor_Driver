@@ -40,6 +40,4 @@ step-motor-28-new\main_thread_it.o: F:\Mark_ding\keil5\ARM\ARMCC\Bin\..\include\
 step-motor-28-new\main_thread_it.o: ..\Drivers\Board\Step-Motor-28-mark1.h
 step-motor-28-new\main_thread_it.o: ..\Motor_control\motor_control.h
 step-motor-28-new\main_thread_it.o: ..\Drivers\Peripheral\TB67H450.h
-step-motor-28-new\main_thread_it.o: ..\Motor_control\control_config.h
-step-motor-28-new\main_thread_it.o: ..\Motor_control\Current_Tracker.h
 step-motor-28-new\main_thread_it.o: ..\Communication\communication.h

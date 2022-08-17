@@ -27,7 +27,6 @@
 "step-motor-28-new\tb67h450.o"
 "step-motor-28-new\sin_form.o"
 "step-motor-28-new\motor_control.o"
-"step-motor-28-new\current_tracker.o"
 "step-motor-28-new\communication.o"
 "step-motor-28-new\main_thread.o"
 "step-motor-28-new\main_thread_it.o"
