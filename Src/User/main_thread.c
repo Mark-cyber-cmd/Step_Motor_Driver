@@ -21,12 +21,15 @@ void main_thread(void)
 	HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_2);
     Motor_Control_Init();
     
-    Motor_set_subdivision(25600);
-    Motor_move(25600,500);
-    
     while(1)
     {
-
+        Motor_set_subdivision(25600);
+        Motor_move(25600,200,1);
+        HAL_Delay(1000);
+        
+        Motor_set_subdivision(25600);
+        Motor_move(25600,200,0);
+        HAL_Delay(1000);
     }
 }
 

@@ -103,7 +103,7 @@ void TB67H450_SetDivideElec(uint32_t divide, int32_t elec_ma)
 
 	//由整形数据获得DAC寄存器数据
 	uint32_t dac_reg = abs(elec_ma);								//电压电流关系为1:1(检流电阻为0.1欧)
-	dac_reg = (uint32_t)(dac_reg * 81322) >> 12;                    //为了避免浮点数转换/运算 整数估算方法
+	dac_reg = (uint32_t)(dac_reg * 81322) >> 12;                    //为了避免浮点数转换/运算 整数估算方法 等效  elec_ma / 3.3 * 65535
 	dac_reg = dac_reg & (0x0000FFFF);								//(对65535取余)(向小取整)(舍弃符号位)
 	coil_a.dac_reg = (uint32_t)(dac_reg * abs(coil_a.sin_data)) >> sin_pi_m2_dpiybit;	//整除4096的Sin幅值
 	coil_b.dac_reg = (uint32_t)(dac_reg * abs(coil_b.sin_data)) >> sin_pi_m2_dpiybit;	

@@ -1,9 +1,9 @@
 /*****
-  ** @file     : control_config.c/h
+  ** @file     : motor_control.c/h
   ** @brief    : 电机控制
   ** @versions : 2.2.3
-  ** @time     : 2020/09/15
-  ** @reviser  : unli (HeFei China)
+  ** @time     : 2022/08/17
+  ** @reviser  : SSBIO(ShangHai China)
   ** @explain  : null
 *****/
 
@@ -30,7 +30,7 @@ extern "C" {
 
 void Motor_Control_Init(void);
 void Motor_set_subdivision(uint32_t Step_NUM);
-void Motor_move(uint32_t Step_NUM, uint32_t Current);
+void Motor_move(uint32_t Step_NUM, uint32_t Current, bool direction);
 void Motor_Control_test(void);
 #ifdef __cplusplus
 }

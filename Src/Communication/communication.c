@@ -1,3 +1,12 @@
+/*****
+  ** @file     : communication.c/h
+  ** @brief    : 通讯协议
+  ** @versions : 2.2.3
+  ** @time     : 2022/08/17
+  ** @reviser  : SSBIO(ShangHai China)
+  ** @explain  : null
+*****/
+
 #include "communication.h"
 #include "motor_control.h"
 
